@@ -1,0 +1,60 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Thursday, October 3, 2019 at 12:41:49 PM Eastern Daylight Time]
+[!
+>Data file = Untitled
+>Bootstrap method with heuristic search:
+>  Number of bootstrap replicates = 1000
+>  Starting seed = 74568
+>  Number of characters resampled in each replicate = 1976
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 1976 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        1328 characters are constant (proportion = 0.672065)
+>        161 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 487
+>    Gaps are treated as "missing"
+>    Multistate taxa interpreted as uncertainty
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: random
+>    Number of replicates = 10
+>    Starting seed = 567
+>      Random trees (not just addition sequence) used as starting point
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 3800 (will be auto-increased by 100)
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>  1000 bootstrap replicates completed
+>  Time used = 00:23:22 (CPU time = 00:19:13.8)
+]
+	Translate
+		1 Massospora_cicadina_GK2,
+		2 Massospora_cicadina_MC17,
+		3 Massospora_cicadina_MC7,
+		4 Massospora_cicadina_MICH231384,
+		5 Massospora_diceroproctae_DB128,
+		6 Massospora_diceroproctae_DB176,
+		7 Massospora_diceroproctae_DB138,
+		8 Massospora_levispora_ML2,
+		9 Massospora_levispora_ML4,
+		10 Massospora_platypediae_CA3,
+		11 Massospora_platypediae_NM2,
+		12 Massospora_platypediae_NM4,
+		13 Massospora_tettigatis_PL5042,
+		14 Massospora_tettigatis_PL373,
+		15 Pandora_formicae_v1,
+		16 Pandora_neoaphidis_ARSEF7939,
+		17 Zoophthora_radicans_voucher45,
+		18 Entomophthora_muscae_ARSEF3074,
+		19 Furia_ithacensis_FiMD2,
+		20 Arthrophaga_myriapodina_Arsp1
+		;
+tree 'PAUP_1' = [&U] (1:100,2:100,((3:100,4:100):78.01,(((5:100,6:100,7:100):100,((((15:100,19:100):55.79,16:100):98.043,17:100):100,18:100,20:100):53.55):50.082,((8:100,9:100,10:100,11:100,12:100):100,(13:100,14:100):100):86.282):100):75.083);
+End;

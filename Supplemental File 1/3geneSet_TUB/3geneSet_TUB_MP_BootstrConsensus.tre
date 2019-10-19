@@ -1,0 +1,52 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Friday, September 20, 2019 at 1:24:56 PM Eastern Daylight Time]
+[!
+>Data file = 4GMassoTUBaln.nexus
+>Bootstrap method with heuristic search:
+>  Number of bootstrap replicates = 1000
+>  Starting seed = 32674
+>  Number of characters resampled in each replicate = 876
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 876 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        651 characters are constant (proportion = 0.743151)
+>        56 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 169
+>    Gaps are treated as "missing"
+>    Multistate taxa interpreted as uncertainty
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: random
+>    Number of replicates = 3
+>    Starting seed = 6242
+>      Random trees (not just addition sequence) used as starting point
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 1000 (will be auto-increased by 100)
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>  1000 bootstrap replicates completed
+>  Time used = 1.65 sec (CPU time = 1.72 sec)
+]
+	Translate
+		1 Massospora_cicadina_MC17,
+		2 Massospora_cicadina_GK2,
+		3 Massospora_cicadina_MC7,
+		4 Massospora_cicadina_MICH231384,
+		5 Massospora_levispora_ML2,
+		6 Massospora_platypediae_NM4,
+		7 Massospora_tettigatis_PL373,
+		8 Massospora_tettigatis_PL5042,
+		9 Entomophthora_muscae_ARSEF3074,
+		10 Massospora_diceroproctae_DB138,
+		11 Massospora_diceroproctae_DB176,
+		12 Massospora_diceroproctae_DB128
+		;
+tree 'PAUP_1' = [&U] (1,2,((3,4)71.333,((((5,6)100,(7,8)100)82.267,9)75.71,(10,11,12)100)94.992)78.745)100;
+End;

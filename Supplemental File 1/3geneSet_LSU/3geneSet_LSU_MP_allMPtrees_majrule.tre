@@ -1,0 +1,39 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Friday, September 20, 2019 at 12:54:54 PM Eastern Daylight Time]
+[!
+>Consensus of 72 trees
+>
+>Source of trees from which consensus(es) calculated...
+>Heuristic search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 651 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        437 characters are constant (proportion = 0.671275)
+>        34 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 180
+>    Gaps are treated as "missing"
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: random
+>    Number of replicates = 1000
+>    Starting seed = 622
+>      Random trees (not just addition sequence) used as starting point
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 1000 (will be auto-increased by 100)
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>Heuristic search completed
+>  Total number of rearrangements tried = 5545150
+>  Score of best tree(s) found = 327
+>  Number of trees retained = 72
+>  Time used = 2.13 sec (CPU time = 2.20 sec)
+]
+	tree MajRule = [&U] (Massospora_cicadina_GK2,Massospora_cicadina_MC7,(Massospora_cicadina_MC17,Massospora_cicadina_MICH231384,((Massospora_levispora_ML2,Massospora_levispora_ML4,Massospora_platypediae_CA3,Massospora_platypediae_NM2,Massospora_platypediae_NM4)100,(Massospora_tettigatis_PL5042,Massospora_tettigatis_PL373)100,((Entomophthora_muscae_ARSEF3074,Arthrophaga_myriapodina_Arsp1)100,((((Pandora_formicae_v1,Pandora_neoaphidis_ARSEF7939)100,Furia_ithacensis_FiMD2)100,Zoophthora_radicans_voucher45)100,(Massospora_diceroproctae_DB128,Massospora_diceroproctae_DB138,Massospora_diceroproctae_DB176)100)100)100)100)100)0;
+end;

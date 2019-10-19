@@ -1,0 +1,40 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Thursday, October 3, 2019 at 11:57:19 AM Eastern Daylight Time]
+[!
+>Consensus of 297 trees
+>
+>Source of trees from which consensus(es) calculated...
+>Heuristic search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 1976 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        1328 characters are constant (proportion = 0.672065)
+>        161 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 487
+>    Gaps are treated as "missing"
+>    Multistate taxa interpreted as uncertainty
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: random
+>    Number of replicates = 100
+>    Starting seed = 86233
+>      Random trees (not just addition sequence) used as starting point
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 900 (will be auto-increased by 100)
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>Heuristic search completed
+>  Total number of rearrangements tried = 84750305
+>  Score of best tree(s) found = 1060
+>  Number of trees retained = 297
+>  Time used = 56.75 sec (CPU time = 52.02 sec)
+]
+	tree MajRule = [&U] (Massospora_cicadina_GK2,Massospora_cicadina_MC17,((Massospora_cicadina_MC7,Massospora_cicadina_MICH231384)100,((Massospora_diceroproctae_DB128,Massospora_diceroproctae_DB176,Massospora_diceroproctae_DB138)100,(((Massospora_levispora_ML2,Massospora_levispora_ML4,Massospora_platypediae_CA3,Massospora_platypediae_NM2,Massospora_platypediae_NM4)100,(Massospora_tettigatis_PL5042,Massospora_tettigatis_PL373)100)100,(((((Pandora_formicae_v1,Furia_ithacensis_FiMD2)100,Pandora_neoaphidis_ARSEF7939)100,Zoophthora_radicans_voucher45)100,Entomophthora_muscae_ARSEF3074)100,Arthrophaga_myriapodina_Arsp1)100)100)100)100)0;
+end;

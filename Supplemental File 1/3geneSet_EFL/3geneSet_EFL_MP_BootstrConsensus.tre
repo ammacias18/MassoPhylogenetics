@@ -1,0 +1,55 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Friday, September 20, 2019 at 1:18:15 PM Eastern Daylight Time]
+[!
+>Data file = 4GMassoEFLaln.nexus
+>Bootstrap method with heuristic search:
+>  Number of bootstrap replicates = 1000
+>  Starting seed = 4621
+>  Number of characters resampled in each replicate = 449
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 449 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        240 characters are constant (proportion = 0.534521)
+>        71 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 138
+>    Gaps are treated as "missing"
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: random
+>    Number of replicates = 3
+>    Starting seed = 927
+>      Random trees (not just addition sequence) used as starting point
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 1000 (will be auto-increased by 100)
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>  1000 bootstrap replicates completed
+>  Time used = 5.43 sec (CPU time = 5.62 sec)
+]
+	Translate
+		1 Massospora_cicadina_GK2,
+		2 Massospora_cicadina_MC7,
+		3 Massospora_cicadina_MC17,
+		4 Massospora_levispora_ML2,
+		5 Massospora_platypediae_CA3,
+		6 Massospora_platypediae_NM2,
+		7 Massospora_platypediae_NM4,
+		8 Massospora_levispora_ML4,
+		9 Massospora_tettigatis_PL5042,
+		10 Massospora_tettigatis_PL373,
+		11 Entomophthora_muscae_ARSEF3074,
+		12 Pandora_formicae_v1,
+		13 Furia_ithacensis_FiMD2,
+		14 Pandora_neoaphidis_ARSEF7939,
+		15 Arthrophaga_myriapodina_Arsp1,
+		16 Massospora_diceroproctae_DB176
+		;
+tree 'PAUP_1' = [&U] (1:100,2:100,3:100,((4:100,5:100,6:100,7:100,8:100):100,(9:100,10:100):99.593,((11:100,((12:100,13:100):85.167,14:100):100):81.058,15:100):91.367,16:100):100);
+End;

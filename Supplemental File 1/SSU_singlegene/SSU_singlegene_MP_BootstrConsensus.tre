@@ -1,0 +1,58 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Friday, September 20, 2019 at 1:11:00 PM Eastern Daylight Time]
+[!
+>Data file = Untitled
+>Bootstrap method with heuristic search:
+>  Number of bootstrap replicates = 1000
+>  Starting seed = 523
+>  Number of characters resampled in each replicate = 610
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 610 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        477 characters are constant (proportion = 0.781967)
+>        25 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 108
+>    Gaps are treated as "missing"
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: random
+>    Number of replicates = 3
+>    Starting seed = 2334
+>      Random trees (not just addition sequence) used as starting point
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 1000 (will be auto-increased by 100)
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>  1000 bootstrap replicates completed
+>  Time used = 8.81 sec (CPU time = 9.02 sec)
+]
+	Translate
+		1 Massospora_cicadina_GK2,
+		2 Massospora_cicadina_MC17,
+		3 Massospora_cicadina_MC7,
+		4 Massospora_cicadina_MICH231384,
+		5 Massospora_tettigatis_PL5042,
+		6 Massospora_tettigatis_PL373,
+		7 Massospora_levispora_ML2,
+		8 Massospora_platypediae_CA3,
+		9 Massospora_platypediae_NM2,
+		10 Massospora_platypediae_NM4,
+		11 Massospora_levispora_ML4,
+		12 Entomophthora_muscae_ARSEF3074,
+		13 Arthrophaga_myriapodina_Arsp1,
+		14 Pandora_formicae_v1,
+		15 Pandora_neoaphidis_ARSEF7939,
+		16 Furia_ithacensis_FiMD2,
+		17 Zoophthora_radicans_voucher45,
+		18 Massospora_diceroproctae_DB128,
+		19 Massospora_diceroproctae_DB176
+		;
+tree 'PAUP_1' = [&U] (1,2,3,4,((5,6)86.783,(((7,8,9,10,11)99.801,((13,((14,(15,16)56.803)99.684,17)100)67.97,(18,19)100)77.592)50.394,12)85.835)99.497)100;
+End;

@@ -1,0 +1,87 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Friday, September 20, 2019 at 1:15:32 PM Eastern Daylight Time]
+[!
+>Data file = 4GMassoEFLaln.nexus
+>Heuristic search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 449 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        240 characters are constant (proportion = 0.534521)
+>        71 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 138
+>    Gaps are treated as "missing"
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: random
+>    Number of replicates = 1000
+>    Starting seed = 5743
+>      Random trees (not just addition sequence) used as starting point
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 1000 (will be auto-increased by 100)
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>Heuristic search completed
+>  Total number of rearrangements tried = 2600618
+>  Score of best tree(s) found = 381
+>  Number of trees retained = 33
+>  Time used = 1.05 sec (CPU time = 1.09 sec)
+]
+	Translate
+		1 Massospora_cicadina_GK2,
+		2 Massospora_cicadina_MC7,
+		3 Massospora_cicadina_MC17,
+		4 Massospora_levispora_ML2,
+		5 Massospora_platypediae_CA3,
+		6 Massospora_platypediae_NM2,
+		7 Massospora_platypediae_NM4,
+		8 Massospora_levispora_ML4,
+		9 Massospora_tettigatis_PL5042,
+		10 Massospora_tettigatis_PL373,
+		11 Entomophthora_muscae_ARSEF3074,
+		12 Pandora_formicae_v1,
+		13 Furia_ithacensis_FiMD2,
+		14 Pandora_neoaphidis_ARSEF7939,
+		15 Arthrophaga_myriapodina_Arsp1,
+		16 Massospora_diceroproctae_DB176
+		;
+tree 'PAUP_1' = [&U] (1,2,(3,((((4,5,6,7,8),(9,10)),((11,((12,13),14)),15)),16)));
+tree 'PAUP_2' = [&U] (1,(2,((((4,5,6,7,8),(9,10)),((11,((12,13),14)),15)),16)),3);
+tree 'PAUP_3' = [&U] (1,2,(3,((4,5,6,7,8),((9,10),(((11,((12,13),14)),15),16)))));
+tree 'PAUP_4' = [&U] (1,(2,((4,5,6,7,8),((9,10),(((11,((12,13),14)),15),16)))),3);
+tree 'PAUP_5' = [&U] (1,(2,3),((4,5,6,7,8),((9,10),(((11,((12,13),14)),15),16))));
+tree 'PAUP_6' = [&U] (1,(2,3),((((4,5,6,7,8),(9,10)),((11,((12,13),14)),15)),16));
+tree 'PAUP_7' = [&U] (1,2,(3,(((4,5,6,7,8),((9,10),((11,((12,13),14)),15))),16)));
+tree 'PAUP_8' = [&U] (1,2,(3,(((((4,5,6,7),8),(9,10)),((11,((12,13),14)),15)),16)));
+tree 'PAUP_9' = [&U] (1,2,(3,((((4,5,6,7),8),((9,10),((11,((12,13),14)),15))),16)));
+tree 'PAUP_10' = [&U] (1,2,(3,(((((4,5,6,8),7),(9,10)),((11,((12,13),14)),15)),16)));
+tree 'PAUP_11' = [&U] (1,2,(3,(((((4,5,7,8),6),(9,10)),((11,((12,13),14)),15)),16)));
+tree 'PAUP_12' = [&U] (1,(2,(((((4,5,6,7),8),(9,10)),((11,((12,13),14)),15)),16)),3);
+tree 'PAUP_13' = [&U] (1,(2,(((4,5,6,7),8),((9,10),(((11,((12,13),14)),15),16)))),3);
+tree 'PAUP_14' = [&U] (1,2,(3,(((4,5,6,7),8),((9,10),(((11,((12,13),14)),15),16)))));
+tree 'PAUP_15' = [&U] (1,(2,3),(((4,5,6,7),8),((9,10),(((11,((12,13),14)),15),16))));
+tree 'PAUP_16' = [&U] (1,(2,3),(((((4,5,6,7),8),(9,10)),((11,((12,13),14)),15)),16));
+tree 'PAUP_17' = [&U] (1,(2,((((4,5,6,7),8),((9,10),((11,((12,13),14)),15))),16)),3);
+tree 'PAUP_18' = [&U] (1,(2,(((4,5,6,7,8),((9,10),((11,((12,13),14)),15))),16)),3);
+tree 'PAUP_19' = [&U] (1,(2,(((((4,5,7,8),6),(9,10)),((11,((12,13),14)),15)),16)),3);
+tree 'PAUP_20' = [&U] (1,(2,(((((4,5,6,8),7),(9,10)),((11,((12,13),14)),15)),16)),3);
+tree 'PAUP_21' = [&U] (1,(2,3),(((4,5,6,7,8),((9,10),((11,((12,13),14)),15))),16));
+tree 'PAUP_22' = [&U] (1,(2,3),((((4,5,6,7),8),((9,10),((11,((12,13),14)),15))),16));
+tree 'PAUP_23' = [&U] (1,(2,3),(((((4,5,7,8),6),(9,10)),((11,((12,13),14)),15)),16));
+tree 'PAUP_24' = [&U] (1,(2,3),(((((4,5,6,8),7),(9,10)),((11,((12,13),14)),15)),16));
+tree 'PAUP_25' = [&U] (1,2,(3,((((((4,5,8),6),7),(9,10)),((11,((12,13),14)),15)),16)));
+tree 'PAUP_26' = [&U] (1,2,(3,((((((4,5,8),7),6),(9,10)),((11,((12,13),14)),15)),16)));
+tree 'PAUP_27' = [&U] (1,2,(3,(((((4,5,8),6,7),(9,10)),((11,((12,13),14)),15)),16)));
+tree 'PAUP_28' = [&U] (1,(2,((((((4,5,8),6),7),(9,10)),((11,((12,13),14)),15)),16)),3);
+tree 'PAUP_29' = [&U] (1,(2,3),((((((4,5,8),6),7),(9,10)),((11,((12,13),14)),15)),16));
+tree 'PAUP_30' = [&U] (1,(2,(((((4,5,8),6,7),(9,10)),((11,((12,13),14)),15)),16)),3);
+tree 'PAUP_31' = [&U] (1,(2,((((((4,5,8),7),6),(9,10)),((11,((12,13),14)),15)),16)),3);
+tree 'PAUP_32' = [&U] (1,(2,3),((((((4,5,8),7),6),(9,10)),((11,((12,13),14)),15)),16));
+tree 'PAUP_33' = [&U] (1,(2,3),(((((4,5,8),6,7),(9,10)),((11,((12,13),14)),15)),16));
+End;
